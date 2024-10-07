@@ -101,6 +101,9 @@ function generateSaxon() {
 	return new Saxon(health, strength);
 }
 
+
+//Test code to run the war between vikings and saxons
+/* 
 viking = generateViking();
 saxon = generateSaxon();
 war = new War();
@@ -128,3 +131,4 @@ war.vikingAttack();
 console.log(war.saxonArmy);
 
 console.log(war);
+ */
